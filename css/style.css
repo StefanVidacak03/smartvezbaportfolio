@@ -1,0 +1,28 @@
+.menu li{
+ display: inline-flex;
+ position: relative;
+ padding: 20px;
+}
+.menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   }
+.menu{
+    background-color: gray;
+}
+.main-container{
+    display: flex; 
+    justify-content: center;
+}
+.who-we-are-container{
+    width: 50%;
+    text-align: center;
+    margin-top: 10%;
+}
+.img-container img{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 5px solid rgb(0, 0, 0);
+    
+}
