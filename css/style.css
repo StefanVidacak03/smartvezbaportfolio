@@ -1,28 +1,94 @@
+body{
+background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
 .menu li{
  display: inline-flex;
  position: relative;
  padding: 20px;
 }
 .menu li a{
-    color: rgb(255, 255, 255);
+    color: rgb(14, 12, 12);
     text-decoration: none;
    }
 .menu{
-    background-color: gray;
+    background-color: transparent;
 }
 .main-container{
-    display: flex; 
+    display: flex;
+    align-items: center;
     justify-content: center;
+    padding: 10px;
 }
-.who-we-are-container{
-    width: 50%;
+.main-container div{
+    width: 700px;
+} 
+.who-we-are-container h1, p{
     text-align: center;
-    margin-top: 10%;
+    
 }
 .img-container img{
+    width: 100%;
+}
+.img-container{
+    align-items: center;
+
+}
+.moto-main-container{
     display: flex;
-    flex-direction: column;
-    width: 50%;
-    border: 5px solid rgb(0, 0, 0);
-    
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.moto-main-container div{
+    width: 700px;
+}
+
+.text-moto-container{
+    text-align: center;
+}
+.text-moto-container li{
+   list-style-type: decimal;
+}
+.img-moto-container img{
+    width: 100%;
+}
+.main-container-specs{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+.main-container-specs div{
+    width: 700px;
+}
+.our-specifications-head{
+    text-align: center;
+}
+.list-specs-1 li{
+    list-style-type: decimal;
+ }
+.list-specs-2 li{
+    list-style: decimal;
+}
+.fav-food-container{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+.fav-food-container div{
+    width: 800px;
+}
+.fav-food-container img{
+    height: 300px;
+    width: 300px;
+}
+.fav-food-header{
+    text-align: center;
 }
